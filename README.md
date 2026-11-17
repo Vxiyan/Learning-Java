@@ -1,6 +1,6 @@
 # Learning-Java
 
-A personal project for learning Java by building a small text-based RPG / adventure game system.
+A personal project for learning Java by building a small text-based RPG game.
 
 ---
 
