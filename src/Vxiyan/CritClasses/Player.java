@@ -70,6 +70,6 @@ public class Player extends BaseEntity {
             this.Uname = Uname.strip();
         }
 
-        Loggy.println("Vxiyan.CritClasses.Player " + this.Uname + " created.");
+        Loggy.println("[DEBUG] Vxiyan.CritClasses.Player " + this.Uname + " created.");
     }
 }

@@ -1,8 +1,6 @@
 package Vxiyan.CritClasses;
 
 import Vxiyan.Inter.Entity;
-import Vxiyan.Utils.Loggy;
-
 import java.util.Map;
 import java.util.HashMap;
 
@@ -169,6 +167,11 @@ public abstract class BaseEntity implements Entity {
             inv.put(iName, amt);
         }
     }
+
+    /**
+     * @return The Entity's stats.
+     */
+    public double[] getStats() { return new double[]{mana, strength, charisma, defense}; }
 
     /**
      * Removes a quantity of an item from the inventory.
