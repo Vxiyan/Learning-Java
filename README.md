@@ -1,8 +1,6 @@
 # Learning-Java
 
 A personal project for learning Java by building a small text-based RPG game.
-
-[![Qodana](https://github.com/Vxiyan/Learning-Java/actions/workflows/qodana_code_quality.yml/badge.svg)](https://github.com/Vxiyan/Learning-Java/actions/workflows/qodana_code_quality.yml)
 ---
 
 ## Overview
