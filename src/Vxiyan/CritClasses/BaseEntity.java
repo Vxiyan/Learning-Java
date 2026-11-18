@@ -39,6 +39,7 @@ import java.util.HashMap;
  * @see Player
  * @see Event
  */
+@SuppressWarnings("DataFlowIssue")
 public abstract class BaseEntity implements Entity {
 
     /** Current mana points. */
