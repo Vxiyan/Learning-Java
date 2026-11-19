@@ -1,3 +1,1 @@
-void main(String[] args){
-
-}
+void main(String[] args){}

@@ -81,23 +81,23 @@ public abstract class Event {
 
         if (this.eventType == type.BIPATH) {
             // Event format: "Name" → "Correct Answer"
-            events.put("Wormhole", "jump over");
+            events.put("Wormhole", "jumpover");
             events.put("Crossroads", "dark");
             events.put("Mimic_Chest", "open");
-            events.put("TrueMimicChest", "run away");
+            events.put("TrueMimicChest", "runaway");
             events.put("lever_wall", "pull");
             events.put("eat_mushroom", "eat");
-            events.put("rope_bridge", "find another way");
-            events.put("spaceship_ctrl_console", "don't touch");
+            events.put("rope_bridge", "findanotherway");
+            events.put("spaceship_ctrl_console", "donttouch");
             events.put("hooded_strangr_coin", "take");
             events.put("large_red_buttn", "push");
-            events.put("Whirlpool", "jump in");
-            events.put("bright_berries", "don't eat");
-            events.put("unlocked_diary", "leave it");
-            events.put("glowing_crystal", "leave it");
+            events.put("Whirlpool", "jumpin");
+            events.put("bright_berries", "donteat");
+            events.put("unlocked_diary", "leaveit");
+            events.put("glowing_crystal", "leaveit");
             events.put("mech_cat", "pet");
             events.put("ancient_totem", "grab");
-            events.put("portal", "stay away");
+            events.put("portal", "stayaway");
             events.put("snail", "RUN");
 
         } else if (this.eventType == type.POLYPATH) {
@@ -223,5 +223,5 @@ public abstract class Event {
      * player, resolving outcomes, applying damage/rewards, etc.
      * </p>
      */
-    protected abstract void handle();
+    public abstract void handle(Player player);
 }
