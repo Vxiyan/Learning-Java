@@ -22,7 +22,7 @@ import java.util.Map;
  * </ul>
  *
  * <p>
- * Subclasses must implement the abstract {@link #handle()} method to define
+ * Subclasses must implement the abstract handle method to define
  * the concrete behavior when the event is triggered.
  * </p>
  *
